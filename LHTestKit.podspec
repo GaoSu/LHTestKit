@@ -41,6 +41,6 @@ Pod::Spec.new do |s|
   #依赖的第三方库
    
    s.dependency 'SnapKit', '~> 5.0.1'
-   s.dependency ''
+
   
 end

@@ -23,9 +23,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let test = LiuTest()
-        print(test.name ?? "")
-        
-    
+        print(test.name ?? "无")
+        view.backgroundColor = .white
+
         // Do any additional setup after loading the view, typically from a nib.
     }
 
