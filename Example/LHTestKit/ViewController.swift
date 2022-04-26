@@ -10,10 +10,22 @@ import UIKit
 import LHTestKit
 class ViewController: UIViewController {
 
+    /// dk
+    private lazy var titleLabel: UILabel = {
+        let label = UILabel()
+        label.text = "文本"
+        label.font = UIFont.systemFont(ofSize: 16.0, weight: .medium)
+        label.textAlignment = .left
+        label.textColor = UIColor.black
+        return label
+    }()
+
     override func viewDidLoad() {
         super.viewDidLoad()
         let test = LiuTest()
         print(test.name ?? "")
+        
+    
         // Do any additional setup after loading the view, typically from a nib.
     }
 
