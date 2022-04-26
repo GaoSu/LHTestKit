@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LHTestKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of LHTestKit.'
+  s.version          = '1.0.1'
+  s.summary          = 'A 刘航.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+刘航的私有库
                        DESC
 
-  s.homepage         = 'https://github.com/liu/LHTestKit'
+  s.homepage         = 'https://github.com/GaoSu/LHTestKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liu' => 'mliuhang@163.com' }
-  s.source           = { :git => 'https://github.com/liu/LHTestKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/GaoSu/LHTestKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'LHTestKit/Classes/**/*'
   
@@ -38,5 +38,9 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  #依赖的第三方库
+   
+   s.dependency 'SnapKit', '~> 5.0.1'
+   s.dependency ''
+  
 end

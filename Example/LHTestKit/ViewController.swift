@@ -7,11 +7,13 @@
 //
 
 import UIKit
-
+import LHTestKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let test = LiuTest()
+        print(test.name ?? "")
         // Do any additional setup after loading the view, typically from a nib.
     }
 

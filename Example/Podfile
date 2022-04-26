@@ -1,6 +1,7 @@
 use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
 
-platform :ios, '9.0'
+platform :ios, '10.0'
 
 target 'LHTestKit_Example' do
   pod 'LHTestKit', :path => '../'
@@ -11,6 +12,6 @@ target 'LHTestKit_Example' do
     pod 'Quick', '~> 2.2.0'
     pod 'Nimble', '~> 8.0.7'
     pod 'FBSnapshotTestCase' , '~> 2.1.4'
-    pod 'Nimble-Snapshots' , '~> 8.0.0'
+    #pod 'Nimble-Snapshots' , '~> 8.0.0'
   end
 end

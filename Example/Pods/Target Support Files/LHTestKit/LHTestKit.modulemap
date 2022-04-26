@@ -1,0 +1,6 @@
+framework module LHTestKit {
+  umbrella header "LHTestKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
